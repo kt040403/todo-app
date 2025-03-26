@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.task-completed {
+    background-color: #f0f0f0;
+}
+
+.completed-text {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.edit-input {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
